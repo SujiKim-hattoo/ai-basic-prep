@@ -76,3 +76,4 @@
 [참고자료]
 - Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, 『머신러닝 수학 바이블』, 최승진·한지웅·조성민 옮김, 홍릉, 2023.
 - 모토하시 도모미쓰, 『데이터 전처리 대전: 데이터 분석을 위한 파이썬, SQL, R 실천 기술』, 윤준 옮김, 한빛미디어, 2019.
+- TensorFlow. (2021, June 11). A friendly introduction to linear algebra for ML (ML Tech Talks) [Video]. YouTube. https://www.youtube.com/watch?v=BgXRccS7va0
