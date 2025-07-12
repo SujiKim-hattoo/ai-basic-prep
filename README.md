@@ -1,2 +1,2 @@
 # ai-basic-prep
-AI basics with Python on Google Colab: pandas, visualization, and more
+*AI 엔지니어링 공부를 시작하며 정리한 기초 개념과 지식을 담은 레포지토리입니다.*
