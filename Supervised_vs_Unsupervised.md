@@ -137,10 +137,9 @@ There are two representative methods based on feedback provided:
 
 **주요 용어:**
 
-* **Model (모델)**: 입력 데이터(features)와 출력 데이터(lables) 간의 수학적 관계(pattern)
-* **Training/Learning (학습)**: 데이터에 기반-> loss 값 업데이트 => 모델 예측 성능 개선
-  * e.g [끓는 물을 만짐 → 화상을 입음] → 다시는 끓는 물에 손대지 않음(knowledge)
-* **Pattern (패턴)**: 학습을 통해 모델이 배우는 관계
+* **Model (모델)**: 입력 데이터(features)와 출력 데이터(lables) 간의 수학적인 관계(pattern)
+* **Training/Learning (학습)**: 데이터에 기반-> 오차 값 줄여 => 모델 예측 성능 개선
+* **Pattern (패턴)**: 학습을 통해 모델이 배우는 수학적인 관계
 * **Inference (추론)**: 학습된 모델을 사용해 라벨이 없는 입력 데이터에 대해 예측을 수행하거나 패턴 분석을 하는 것
 
 ## **Types of Machine Learning (머신러닝의 유형)**
@@ -161,7 +160,7 @@ There are two representative methods based on feedback provided:
 
 * **Regression (회귀)**
 
-  * 숫자형 데이터 예측
+  * 숫자형 데이터(연속적인 종속변수) 예측
   * 예: 전기 사용량, 강수량, 집값, 매출 예측 등
 
 * **Classification (분류)**
@@ -171,7 +170,7 @@ There are two representative methods based on feedback provided:
 
   **세부 유형:**
 
-  * **Binary classification (이진 분류)**: 두 가지 범주로 결과가 나옵니다 (예: 종양 진단 -> 양성 또는 음성).
+  * **Binary classification (이진 분류)**: 두 가지 범주로 결과가 나옵니다 (예: 종양 진단 -> 악성 또는 양성).
   * **Multiclass classification (다중 분류)**: 세 가지 이상 범주로 결과가 나옵니다 (예: 손글씨 문자, 날씨 상태: 맑음/비/눈, 위험 수준: 높음/중간/낮음)
 
 ### 2. Unsupervised Learning (비지도학습)
@@ -184,8 +183,8 @@ There are two representative methods based on feedback provided:
 
 * **Clustering (군집화)**
 
-  * 자연스럽게 묶이는 데이터 그룹 찾기
-  * 예: 온도와 습도에 따라 날씨 데이터를 분류, 소비자 세분화
+  * 다른 데이터들과 구분되면서 자연스럽게 묶이는 비슷한 데이터 그룹 찾기
+  * 예: 나이, 소비 패턴 등으로 분석해 묶인 고객 데이터
 
 * **Dimensionality Reduction (차원 축소)**
 
@@ -198,14 +197,14 @@ There are two representative methods based on feedback provided:
 
 ### 공통점:
 
-* 데이터 안의 숨겨진 패턴 찾아 -> 모델링에 활용하는 것이 목적!
-* 정확한 패턴 인식 & 예측 위해 (가능한) 다양하고 방대한 데이터셋 필요
+* 데이터 안의 숨겨진 패턴 찾기
+* (가능한) 다양하고 방대한 데이터셋 필요 -> 정확한 패턴 인식 및 예측에 사용
 
 ## **Additional Terms**
 
 * **Reinforcement Learning (강화학습)**: 여러 번의 시행착오 -> 각 행동에 대해 보상 or 패널티를 받으며 최적의 전략을 스스로 학습하는 방식. 주로 게임AI, 로봇 제어, 자율 주행 등 환경 변화에 능동적으로 대응할 필요가 있는 학습. 지도학습(피드백o)과 비지도학습(정답 제시x)의 요소가 결합[AI Learns Insane Way to Jump](https://youtube.com/shorts/hgjsLmFSkxo?feature=shared)
  
-* **Generative AI (생성형 AI)**: 사용자 입력을 기반으로 다양한 방식을 통해 텍스트, 이미지, 오디오, 비디오 등 새로운 콘텐츠를 생성. 요약에는 지도학습이, 데이터 모방에는 비지도학습이 활용될 수 있습니다.
+* **Generative AI (생성형 AI)**: 사용자 입력을 기반으로 다양한 방식을 통해 텍스트, 이미지, 오디오, 비디오 등 새로운 콘텐츠를 생성. 요약에는 지도학습이, 데이터 모방에는 비지도학습이 활용될 수 있음
 
 ## **Practical Example (상품 추천 시스템 예시)**
 
