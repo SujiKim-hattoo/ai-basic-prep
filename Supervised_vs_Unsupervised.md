@@ -133,15 +133,15 @@ There are two representative methods based on feedback provided:
 
 **기본 과정:**
 
-* 데이터 활용 -> 모델 학습 -> 학습된 패턴 => 예측 등
+* 데이터 활용 -> 모델 학습 -> 학습된 패턴 => 예측 or 패턴 발견 등
 
 **주요 용어:**
 
 * **Model (모델)**: 입력 데이터(features)와 출력 데이터(lables) 간의 수학적 관계(pattern)
-* **Pattern (패턴)**: 학습을 통해 모델이 배우는 관계
 * **Training/Learning (학습)**: 데이터에 기반-> loss 값 업데이트 => 모델 예측 성능 개선
   * e.g [끓는 물을 만짐 → 화상을 입음] → 다시는 끓는 물에 손대지 않음(knowledge)
-* **Inference (추론)**: 학습된 모델을 사용해 라벨이 없는 입력 데이터에 대해 예측을 수행하는 것(지도학습)
+* **Pattern (패턴)**: 학습을 통해 모델이 배우는 관계
+* **Inference (추론)**: 학습된 모델을 사용해 라벨이 없는 입력 데이터에 대해 예측을 수행하거나 패턴 분석을 하는 것
 
 ## **Types of Machine Learning (머신러닝의 유형)**
 
@@ -155,7 +155,7 @@ There are two representative methods based on feedback provided:
 
 * **Features (피처)**: 학습에 사용되는 입력 데이터
 * **Label (레이블)**: 예측하고자 하는 출력 데이터
-  (c.f. 기출문제 or 족보 -> 새로운 시험을 준비하는 것과 비슷)
+  (c.f. 기출문제 -> 새로운 시험을 준비하는 것과 비슷)
 
 #### 지도학습의 유형:
 
@@ -194,7 +194,7 @@ There are two representative methods based on feedback provided:
 * **Association Rules (연관 규칙)**
 
   * 데이터 내 변수들 간의 관계 -> 규칙 형태로 도출
-  * 예: *Customers Who Bought This Item Also Bough* (Amazon), *Discover Weekly* (Spotify)
+  * 예: *Customers Who Bought This Item Also Bought* (Amazon), *Discover Weekly* (Spotify)
 
 ### 공통점:
 
@@ -203,9 +203,9 @@ There are two representative methods based on feedback provided:
 
 ## **Additional Terms**
 
-* **Reinforcement Learning (강화학습)**: 여러 번의 시행착오 -> 보상 or 패널티를 받으며 최적의 전략을 학습하는 방식. 지도학습(피드백 존재)과 비지도학습(정답 제시x)의 요소가 결합
+* **Reinforcement Learning (강화학습)**: 여러 번의 시행착오 -> 각 행동에 대해 보상 or 패널티를 받으며 최적의 전략을 스스로 학습하는 방식. 주로 게임AI, 로봇 제어, 자율 주행 등 환경 변화에 능동적으로 대응할 필요가 있는 학습. 지도학습(피드백o)과 비지도학습(정답 제시x)의 요소가 결합[AI Learns Insane Way to Jump](https://youtube.com/shorts/hgjsLmFSkxo?feature=shared)
  
-* **Generative AI (생성형 AI)**: 사용자 입력을 기반으로 텍스트, 이미지, 오디오, 비디오 등 새로운 콘텐츠를 생성합니다. 요약에는 지도학습이, 데이터 모방에는 비지도학습이 활용될 수 있습니다.
+* **Generative AI (생성형 AI)**: 사용자 입력을 기반으로 다양한 방식을 통해 텍스트, 이미지, 오디오, 비디오 등 새로운 콘텐츠를 생성. 요약에는 지도학습이, 데이터 모방에는 비지도학습이 활용될 수 있습니다.
 
 ## **Practical Example (상품 추천 시스템 예시)**
 
